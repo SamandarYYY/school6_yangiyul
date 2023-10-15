@@ -1,0 +1,50 @@
+    @import url(./fonts.css);
+
+    .about__sec {
+        height: 300px;
+        opacity: 0.4;
+        display: flex;
+    }
+
+    .about__sec h1 {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 60px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .about__sec h1 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .about__sec h2 {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 30px;
+    }
+
+    .about__sec strong {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    @media screen and (max-width: 600px) {
+        .about__sec h2 {
+            display: flex;
+            justify-content: center;
+        }
+    }
