@@ -20,7 +20,7 @@
         box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .header__nav {
             height: 350px;
         }
@@ -41,7 +41,7 @@
         font-style: normal;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .header__content h1 {
             font-size: 28px;
             margin-left: 90px;
@@ -68,7 +68,7 @@
         margin-right: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .nav {
             flex-direction: column;
             justify-content: center;
@@ -89,7 +89,7 @@
         font-family: Poppins;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .header__link {
             margin-left: 0;
             line-height: 35px;
@@ -107,7 +107,7 @@
         height: 600px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .section_1 {
             height: 700px;
         }
@@ -127,7 +127,7 @@
         font-family: Poppins;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .section_1-text h1 {
             margin-left: 30px;
             margin-top: 60px;
@@ -138,7 +138,7 @@
         color: rgba(2, 137, 122, 1);
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .sit {
             margin-left: 60px;
         }
@@ -156,7 +156,7 @@
         font-family: Poppins;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .section_1-text h2 {
             text-align: center;
             width: 250px;
@@ -179,7 +179,7 @@
         transition: .3s linear;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .section_1-text button {
             margin-top: 10px;
             margin-left: 70px;
@@ -199,7 +199,7 @@
         margin-top: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .section_1-img img {
             width: 200px;
             height: 200px;
