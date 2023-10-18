@@ -23,6 +23,8 @@
     @media screen and (max-width: 480px) {
         .header__nav {
             height: 350px;
+            justify-content: center;
+            align-items: center;
         }
     }
 
@@ -44,8 +46,11 @@
     @media screen and (max-width: 480px) {
         .header__content h1 {
             font-size: 28px;
-            margin-left: 90px;
             position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 100px;
         }
     }
 
@@ -66,16 +71,18 @@
     .nav {
         margin-top: 30px;
         margin-right: 50px;
+        justify-content: center;
     }
 
     @media screen and (max-width: 480px) {
         .nav {
+            align-items: center;
             flex-direction: column;
             justify-content: center;
             margin-top: 100px;
-            margin-left: 70px;
             margin-right: 0;
-            text-align: center;
+            margin-left: 80px;
+            display: flex;
         }
     }
 
@@ -221,7 +228,7 @@
         height: 400px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .information__sec {
             height: 100%;
         }
@@ -238,7 +245,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .information__sec-title {
             margin-left: 0;
             font-size: 35px;
@@ -250,7 +257,7 @@
         display: flex;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .activities {
             display: block;
         }
@@ -348,7 +355,7 @@
         display: flex;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .blogs {
             display: block;
         }
@@ -358,7 +365,7 @@
         margin-left: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .smile {
             margin-left: 0;
             margin-top: 20px;
@@ -391,7 +398,7 @@
         margin-left: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .play {
             margin-left: 0;
             margin-top: 30px;
@@ -424,7 +431,7 @@
         margin-left: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .draw {
             margin-left: 0;
             margin-top: 30px;
@@ -469,7 +476,7 @@
         margin-bottom: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .information__blog button {
             margin-top: 40px;
             margin-left: 70px;
@@ -505,7 +512,7 @@
         height: 1350px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery {
             height: 100%;
         }
@@ -515,7 +522,7 @@
         display: flex;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .image__part_1 {
             display: block;
         }
@@ -526,7 +533,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery_img__1 {
             width: 300px;
             margin-left: 0;
@@ -538,7 +545,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery_img__2 {
             width: 300px;
             margin-left: 0;
@@ -550,7 +557,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery_img__3 {
             width: 300px;
             margin-left: 0;
@@ -561,7 +568,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery_img__4 {
             width: 300px;
             margin-left: 0;
@@ -574,7 +581,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery_img__5 {
             width: 300px;
             height: 350px;
@@ -587,7 +594,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery_img__6 {
             width: 300px;
             margin-left: 0;
@@ -599,7 +606,7 @@
         margin-left: 40px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery_img__7 {
             width: 300px;
             margin-left: 0;
@@ -621,7 +628,7 @@
         margin-top: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .gallery button {
             margin-top: 40px;
             margin-left: 70px;
@@ -651,7 +658,7 @@
         height: 400px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .join {
             height: 550px;
         }
@@ -667,7 +674,7 @@
         margin-top: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .join h1 {
             margin-left: 0;
             font-size: 40px;
@@ -689,7 +696,7 @@
         margin-left: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .join h2 {
             width: 300px;
             height: 60px;
@@ -713,7 +720,7 @@
         margin-top: 70px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .join button {
             margin-top: 280px;
             margin-left: 70px;
@@ -742,7 +749,7 @@
         background: #02897A;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         footer {
             height: 100%;
         }
@@ -754,7 +761,7 @@
         align-content: center;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .footer__nav {
             flex-direction: column;
             justify-content: center;
@@ -775,6 +782,7 @@
         font-weight: 600;
         line-height: normal;
         margin-top: 50px;
+        margin-right: 50px
     }
 
     .line {
@@ -785,7 +793,7 @@
         margin-top: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .line {
             width: 300px;
         }
@@ -804,7 +812,7 @@
         margin-left: 50px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .social__media img {
             margin-right: 0;
         }
@@ -824,7 +832,7 @@
         margin-top: 30px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
         .footer__text {
             font-size: 15px;
         }
