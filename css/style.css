@@ -41,7 +41,7 @@
         font-style: normal;
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 480px) {
         .header__content h1 {
             font-size: 28px;
             margin-left: 90px;
