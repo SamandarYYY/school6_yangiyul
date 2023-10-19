@@ -358,6 +358,7 @@
     @media screen and (max-width: 480px) {
         .blogs {
             display: block;
+            margin-left: 50px
         }
     }
 
