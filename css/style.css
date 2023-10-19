@@ -168,7 +168,7 @@
             text-align: center;
             width: 250px;
             height: 200px;
-            margin-left: 30px;
+            margin-left: 50px;
             margin-top: 0px;
         }
     }
@@ -718,7 +718,7 @@
             height: 60px;
             font-size: 20px;
             text-align: center;
-            margin-left: 20px;
+            margin-left: 30px;
         }
     }
 
@@ -781,7 +781,7 @@
         .footer__nav {
             flex-direction: column;
             justify-content: center;
-            margin-right: 60px;
+            margin-right: 80px;
             text-align: center;
         }
     }
@@ -818,7 +818,7 @@
     @media screen and (max-width: 480px) {
         .line {
             width: 300px;
-            margin-left: 20px
+            margin-left: 30px
         }
     }
 
