@@ -666,11 +666,7 @@
     /* JOIN START */
 
     .join {
-        background-image: url(../img/join__bg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        overflow: hidden;
+        background: linear-gradient(180deg, #FFF 0%, #EDEDED 100%);
         height: 400px;
     }
 
