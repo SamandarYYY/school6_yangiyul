@@ -165,7 +165,7 @@
 
     @media screen and (max-width: 480px) {
         .section_1-text h2 {
-            text-align: center;
+            text-align: justify;
             width: 250px;
             height: 200px;
             margin-left: 60px;
