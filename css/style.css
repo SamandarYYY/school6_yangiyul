@@ -165,11 +165,11 @@
 
     @media screen and (max-width: 480px) {
         .section_1-text h2 {
-            text-align: justify;
-            width: 250px;
+            text-align: center;
+            width: 300px;
             height: 200px;
-            margin-left: 60px;
-            margin-top: 0px;
+            margin-left: 40px;
+            margin-top: 10px;
         }
     }
 
