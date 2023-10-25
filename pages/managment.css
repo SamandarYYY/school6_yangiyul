@@ -130,8 +130,13 @@
 
     /* MANAGMENT START */
 
+    .meet__managment {
+        height: 200px;
+    }
+
     @media screen and (max-width: 480px) {
         .meet__managment {
+            height: 100px;
             margin-top: 50px;
         }
     }
