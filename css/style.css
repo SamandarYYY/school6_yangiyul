@@ -802,7 +802,7 @@
 /* SCHOOL MAP START */
 
     .school__map iframe {
-        width: 120%;
+        width: 100%;
         margin-left: -110px;
     }
 
