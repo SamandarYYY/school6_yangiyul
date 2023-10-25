@@ -1,0 +1,298 @@
+    @import url(./fonts.css);
+
+    .managment__sec {
+        height: 300px;
+        opacity: 0.4;
+        display: flex;
+    }
+
+    .managment__sec h1 {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 60px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .managment__sec h1 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .managment__sec h2 {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 30px;
+    }
+
+    .managment__sec strong {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    @media screen and (max-width: 480px) {
+        .managment__sec h2 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    /* MAIN START */
+
+    .manag__founder {
+        display: flex;
+    }
+
+    @media screen and (max-width: 480px) {
+        .manag__founder {
+            display: block;
+        }
+    }
+
+    .managment__title h1 {
+        color: #80C4D3;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .managment__title h1 {
+            text-align: center;
+        }
+    }
+
+    .managment__title h2 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .managment__title h2 {
+            text-align: center;
+        }
+    }
+
+    .managment__title h3 {
+        width: 500px;
+        height: 400px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin-top: 30px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .managment__title h3 {
+            text-align: justify;
+            width: 350px;
+            height: 500px;
+            margin-left: 10px;
+        }
+    }
+
+    .founder__img img {
+        margin-top: 40px;
+        margin-left: 80px;
+        border-radius: 5px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .founder__img img {
+            width: 300px;
+            height: 300px;
+            margin-left: 40px;
+        }
+    }
+
+    /* MANAGMENT START */
+
+    @media screen and (max-width: 480px) {
+        .meet__managment {
+            margin-top: 50px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .meet__managment h1 {
+            margin-left: 50px;
+        }
+    }
+
+    .headmasters {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmasters {
+            display: block;
+            margin-top: 50px;
+        }
+    }
+
+    .headmaster__1 h1 {
+        color: #22343D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmaster__1 h1 {
+            margin-right: 30px;
+        }
+    }
+
+    .headmaster__1 h2 {
+        color: #80C4D3;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmaster__1 h2 {
+            margin-left: 10px;
+        }
+    }
+
+    .headmaster__1 img {
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmaster__1 img {
+            margin-left: 130px;
+        }
+    }
+
+    
+    @media screen and (max-width: 480px) {
+        .headmistress__1 {
+            margin-top: 50px;
+        }
+    }
+
+    .headmistress__1 h1 {
+        color: #22343D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmistress__1 h1 {
+            margin-right: 30px;
+        }
+    }
+
+    .headmistress__1 h2 {
+        color: #80C4D3;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmistress__1 h2 {
+            margin-left: 10px;
+        }
+    }
+
+    .headmistress__1 img {
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmistress__1 img {
+            margin-left: 130px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmistress__2 {
+            margin-top: 50px;
+        }
+    }
+
+    .headmistress__2 h1 {
+        color: #22343D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmistress__2 h1 {
+            margin-right: 30px;
+        }
+    }
+
+    .headmistress__2 h2 {
+        color: #80C4D3;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmistress__2 h2 {
+            margin-left: 10px;
+        }
+    }
+
+    .headmistress__2 img {
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .headmistress__2 img {
+            margin-left: 130px;
+        }
+    }
