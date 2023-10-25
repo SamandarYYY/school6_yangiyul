@@ -226,12 +226,11 @@
         }
     }
 
-
-/* ABOUT JOIN START */
+    /* ABOUT JOIN START */
 
     .about__join {
         margin-top: 150px;
-        background: linear-gradient(180deg, #FFF 0%, #EDEDED 100%);
+        background: linear-gradient(180deg, #fdf4f4 0%, #EDEDED 100%);
         height: 400px;
     }
 
@@ -250,6 +249,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: 50px;
+        margin-top: 150px;
     }
 
     @media screen and (max-width: 480px) {
@@ -266,46 +266,46 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));
+        background: linear-gradient(to bottom, rgb(69, 10, 187), rgb(194, 33, 33));
         border-radius: 30px;
         overflow: hidden;
         cursor: pointer;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+        box-shadow: 2px 2px 10px rgba(196, 0, 0, 0.075);
         margin-top: 50px;
         margin-left: 150px;
-      }
+    }
 
-      @media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
         .InputContainer {
             width: 310px;
-            height: 110px;
+            height: 80px;
             margin-left: 40px;
             font-size: 40px;
             text-align: center;
         }
     }
-      
-      .input {
+
+    .input {
         width: 800px;
         height: 80px;
         border: none;
         outline: none;
-        caret-color: rgb(255, 81, 0);
+        caret-color: rgb(231, 186, 165);
         background-color: rgb(255, 255, 255);
         border-radius: 30px;
         padding-left: 15px;
         letter-spacing: 0.8px;
         color: rgb(19, 19, 19);
         font-size: 13.4px;
-      }
+    }
 
-      @media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
         .input {
             width: 300px;
-            height: 100px;
+            height: 70px;
         }
     }
-      
+
 
     .about__join button {
         width: 152px;
@@ -339,9 +339,9 @@
 
     /* ABOUT JOIN END */
 
-     /* FOOTER START */
+    /* FOOTER START */
 
-     .about__footer {
+    .about__footer {
         height: 373px;
         background: #80C4D3;
     }
