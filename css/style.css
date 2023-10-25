@@ -799,6 +799,37 @@
 
     /* JOIN END */
 
+/* SCHOOL MAP START */
+
+    .school__map iframe {
+        width: 120%;
+        margin-left: -110px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .school__map iframe {
+            width: 500px;
+        }
+    }
+
+    .map__title h1 {
+        color: #02897A;
+        text-align: center;
+        font-family: Rambla;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .map__title h1 {
+            font-size: 20px;
+        }
+    }
+
+    /* SCHOOL MAP END */
+
     /* MAIN END */
 
 
