@@ -410,6 +410,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 32px;
+        margin-top: 20px;
     }
 
     .play {
@@ -442,7 +443,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 32px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .draw {
